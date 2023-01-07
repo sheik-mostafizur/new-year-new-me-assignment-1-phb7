@@ -159,6 +159,49 @@ main > section {
   margin-bottom: 24px;
 }
 
+/* knowledge */
+.knowledge h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  color: #151414;
+}
+.knowledge .items {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 4rem;
+  text-align: center;
+}
+.knowledge .items .item {
+  flex-basis: 28%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 8px;
+  padding: 2rem 1rem;
+}
+.knowledge .items .item img {
+  max-width: 300px;
+}
+.knowledge .items .item h3 {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 47px;
+  text-align: center;
+  color: #151414;
+  margin: 1rem 0;
+}
+.knowledge .items .item p {
+  font-size: 18px;
+  line-height: 28px;
+}
+.knowledge .items .item a {
+  font-weight: bold;
+  font-size: 14px;
+  color: #acacac;
+}
+
 /* footer */
 
 footer {
